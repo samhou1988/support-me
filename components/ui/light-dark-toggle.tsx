@@ -8,7 +8,7 @@ type Props = {
   className?: string;
 }
 
-export default function LightDarkToggle({ className}: Props) {
+export function LightDarkToggle({ className}: Props) {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   return (
